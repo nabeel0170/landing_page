@@ -1,6 +1,7 @@
-
-body{
-    background-image: url(../images/mexico-gfa3afd079_1920.jpg);
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
 }
 nav{
     display: flex;
@@ -25,7 +26,7 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
-    color: white;
+    color: gray;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size:20px;
 }
@@ -33,7 +34,8 @@ nav ul li a{
     justify-content: center;
     align-items: center;
     padding-left:100px ;
-    padding-top:50px;
+    padding-top:100px;
+    
 }
 .description h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -44,12 +46,27 @@ nav ul li a{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color: white;
     text-decoration: none;
+    padding: 10px;
+    padding-left: 0%;
 }
 .description button{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
-    border-radius: 8px;
-    width: 102px;
-    background-color:gray ;
-    border-color:white;
+    font-size: medium;
+    text-align: center;
+    border-radius:10px;
+    height: 35px;
+    width: 125px;
+    background-color:#3882F6 ;
+    border-style: none;
+}
+.hero{
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+    margin: 0%;
+    background-color:#1F2937;
+    background-size: cover;
+    opacity: 100%;
 }
