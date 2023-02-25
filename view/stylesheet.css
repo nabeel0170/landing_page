@@ -1,3 +1,4 @@
+
 body{
     background-image: url(../images/mexico-gfa3afd079_1920.jpg);
 }
@@ -27,4 +28,28 @@ nav ul li a{
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size:20px;
+}
+.description{
+    justify-content: center;
+    align-items: center;
+    padding-left:100px ;
+    padding-top:50px;
+}
+.description h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 30px;
+}
+.description p,a{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-decoration: none;
+}
+.description button{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    border-radius: 8px;
+    width: 102px;
+    background-color:gray ;
+    border-color:white;
 }
